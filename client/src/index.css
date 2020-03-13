@@ -10,6 +10,15 @@ a {
   color: black
 }
 
+a:hover {
+  background-color: green;
+  color: white;
+}
+
+.movie-list {
+  width: 75%;
+  margin: 1rem auto;
+}
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -19,6 +28,9 @@ a {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+}
+.movie-card a:hover {
+  color: green;
 }
 
 .movie-director {
@@ -65,6 +77,7 @@ a {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  cursor: pointer;
 }
 .save-button:hover {
   background-color: green;
@@ -76,3 +89,7 @@ a {
   background-color: lightskyblue;
   
 }
+
+.home-button:hover {
+  background-color: green;
+ }
